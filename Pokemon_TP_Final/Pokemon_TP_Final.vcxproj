@@ -146,7 +146,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Electric.cpp" />
+    <ClCompile Include="Fire.cpp" />
+    <ClCompile Include="Grass.cpp" />
+    <ClCompile Include="Insect.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="Rock.cpp" />
+    <ClCompile Include="Water.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Electric.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="Grass.h" />
+    <ClInclude Include="Insect.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="Rock.h" />
+    <ClInclude Include="Water.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
