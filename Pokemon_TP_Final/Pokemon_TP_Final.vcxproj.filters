@@ -19,60 +19,90 @@
     <Filter Include="Fichiers d%27en-tête\CLASS">
       <UniqueIdentifier>{21c64397-f5b3-4f76-a574-10dba5e0af2d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASS\terre">
+      <UniqueIdentifier>{3ec18152-de40-4033-b6dc-84b22b6ba0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASS\eletrique">
+      <UniqueIdentifier>{5be090ed-d476-4bbf-b1c0-3063ddee888d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASS\feu">
+      <UniqueIdentifier>{3f23747d-1936-4d3f-bdc1-5d9748bd8bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASS\plante">
+      <UniqueIdentifier>{607e1a14-78c3-48fb-be8f-ad6b49f214b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASS\eau">
+      <UniqueIdentifier>{019d0f94-d1c2-4371-8790-08a07eff846b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASS\electrique">
+      <UniqueIdentifier>{0a85fd71-0fce-44a7-90fe-6f9d122fb27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASS\feu">
+      <UniqueIdentifier>{2161f7ff-81e2-4efc-aca3-10e5bad9d91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASS\eau">
+      <UniqueIdentifier>{a25c4480-6984-4774-b2d0-1ad3d5dcb60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASS\plante">
+      <UniqueIdentifier>{054c70f8-d963-4595-9dc1-301567361712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASS\terre">
+      <UniqueIdentifier>{9488e04d-ebbd-483e-ac0d-ef01fadb556e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Fichiers sources\CLASS</Filter>
+    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Monster.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="Electric.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Water.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Rock.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\CLASS\electrique</Filter>
     </ClCompile>
     <ClCompile Include="Fire.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\CLASS\feu</Filter>
     </ClCompile>
     <ClCompile Include="Grass.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Plant.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\CLASS\plante</Filter>
     </ClCompile>
     <ClCompile Include="Insect.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\CLASS\plante</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>Fichiers sources\CLASS\plante</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Fichiers sources\CLASS\terre</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Fichiers sources\CLASS\eau</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Monster.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Electric.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Water.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\CLASS</Filter>
     </ClInclude>
     <ClInclude Include="Rock.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\CLASS\terre</Filter>
+    </ClInclude>
+    <ClInclude Include="Electric.h">
+      <Filter>Fichiers d%27en-tête\CLASS\eletrique</Filter>
     </ClInclude>
     <ClInclude Include="Fire.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\CLASS\feu</Filter>
     </ClInclude>
     <ClInclude Include="Grass.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\CLASS\plante</Filter>
     </ClInclude>
     <ClInclude Include="Plant.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\CLASS\plante</Filter>
     </ClInclude>
     <ClInclude Include="Insect.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\CLASS\plante</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Fichiers d%27en-tête\CLASS\eau</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
