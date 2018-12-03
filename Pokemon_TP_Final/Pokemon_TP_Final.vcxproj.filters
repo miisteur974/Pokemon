@@ -49,6 +49,12 @@
     <Filter Include="Fichiers sources\CLASS\terre">
       <UniqueIdentifier>{9488e04d-ebbd-483e-ac0d-ef01fadb556e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\CLASS\gameplay">
+      <UniqueIdentifier>{179fcc24-3d67-4a62-8171-a1efbcfe5acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CLASS\gameplay">
+      <UniqueIdentifier>{0e51f6a9-42c6-42a7-bace-e3ab465dbaf4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Monster.cpp">
@@ -78,6 +84,9 @@
     <ClCompile Include="Water.cpp">
       <Filter>Fichiers sources\CLASS\eau</Filter>
     </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Fichiers sources\CLASS\gameplay</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Monster.h">
@@ -103,6 +112,9 @@
     </ClInclude>
     <ClInclude Include="Water.h">
       <Filter>Fichiers d%27en-tête\CLASS\eau</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Fichiers d%27en-tête\CLASS\gameplay</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
